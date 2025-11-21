@@ -1,0 +1,103 @@
+nav,ul,li{
+    list-style-type: none;
+    color: white;
+    
+
+}
+.link{
+    text-decoration: none;
+    border-radius: 5px;
+    color: #0ef;
+  
+
+}
+
+.link:hover{
+    border-bottom: 2px solid #0ef;    
+    color: #0ef;
+    filter: drop-shadow(0px 0px 10px #0ef);
+
+}
+
+.Wraper{
+    position: fixed;
+    width: 97vw; 
+    height: 90px;
+    /* background-color: greenyellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    justify-content: baseline;
+    margin-top: 10px;
+    flex-wrap: wrap;
+    gap: 80px;
+    background-color: #081b29;
+    /* background-color: yellow; */
+
+    color: white;
+
+
+}
+
+.nav_warper,ul{
+    display: flex;
+    gap: 7px;
+    margin-right: 35px;
+    margin-top: 12px;
+    color: white;
+    
+}
+
+.carname{
+    margin-top: 12px;
+}
+
+.img_name{
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    gap: 10px;
+    margin-top: 5px;
+}
+.active{
+border-bottom: 2px solid #0ef;    
+color: #0ef;
+filter: drop-shadow(0px 0px 10px #0ef);
+
+}
+
+.nav2{
+    margin-top: 12px;
+}
+
+.logo_img{
+    height: 120px;
+    padding-bottom: 50px;
+    width: 100px;
+    filter: grayscale(1);
+    transition: all 1s;
+    animation: sl 5s linear infinite ;
+}
+
+
+
+@keyframes sl{
+    0%{
+        filter: drop-shadow(0px 0px 0px #081b29);
+
+    }
+
+    50%{
+        filter: drop-shadow(0px 0px 30px #e57437);
+    
+
+
+       
+
+
+    }
+    100%{
+        filter: drop-shadow(0px 0px 0px #081b29);
+
+    }
+}

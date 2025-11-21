@@ -1,0 +1,949 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@200&family=Merriweather:wght@300&family=Noto+Sans:ital,wght@1,300&family=Poppins:wght@400;600;700&display=swap');
+
+*{
+    
+    padding: 2px;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+
+    
+}
+
+.MAINWRAPERINAPP{
+  
+  height: 100VH;
+}
+.errmsg{
+    color: red;
+}
+
+.tabbll{
+    border: 1px solid rgba(255, 255, 255, 0.326);
+    border-collapse: collapse;
+    color: white;
+    background-color: #0f1449b9;
+    height: 45px;
+
+}
+
+.car_details_form{
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #081b29;
+  height: 100vh;
+  
+}
+
+#tabbnt{
+  margin: 20px;
+  width: 150px;
+  height: 45px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.tabblltable{
+  border: 1px solid rgba(255, 255, 255, 0.326);
+  border-collapse: collapse;
+  color: white;
+  background-color: #0f1449b9;
+  
+  height: 45px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+
+
+
+.tabbllth{
+  background-color: #021fb0;
+  text-align: start;
+  
+  
+  
+}
+
+.tdec{
+  color: white;
+}
+
+.updatebtn{
+  
+  background-color: #48ff00;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border-radius: 5px;
+  border: 1px solid rgba(255, 255, 255, 0.539);
+}
+
+.deletebtn{
+  background-color: red;
+  text-decoration: none;
+  text-align: center;
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.539);
+
+  border-radius: 5px;
+}
+
+.acd{
+  color: white;
+}
+
+.tabblltd{
+  text-align: start;
+  width: 50px;
+}
+
+.h1andbutton{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+
+
+
+.intable{
+    display: flex;
+    gap: 10px;
+    width: 50px;
+}
+
+
+
+
+
+/* CSS */
+.button-90 {
+  color: #fff;
+  padding: 15px 25px;
+  border-radius: 100px;
+  background-color: #4C43CD;
+  background-image: radial-gradient(93% 87% at 87% 89%, rgba(0, 0, 0, 0.23) 0%, transparent 86.18%), radial-gradient(66% 87% at 26% 20%, rgba(255, 255, 255, 0.41) 0%, rgba(255, 255, 255, 0) 69.79%, rgba(255, 255, 255, 0) 100%);
+  box-shadow: 2px 19px 31px rgba(0, 0, 0, 0.2);
+  font-weight: bold;
+  font-size: 16px;
+
+  border: 0;
+
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+
+  cursor: pointer;
+}
+
+
+
+.Cards2mainContainer{
+  
+    width: 1123px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+  
+  
+  }
+  .CardsMainContainer{
+   
+    display: flex;
+    justify-content: center;
+  }
+
+
+  
+.onecard{
+    width: 300px;
+    border-radius: 5px;
+    background-color: #222240;
+    position: relative;
+  border: 1px solid rgba(255, 255, 255, 0.518);
+  
+  }
+  
+  
+  .title{
+    margin: 7px ;
+    color: white;
+    font-size: 20px;
+    
+  }
+  .text{
+    margin:5px ;
+    font-size: 18px;
+    color: white;
+  }
+  
+  .image{
+    width: 292px;
+    height: 168px;
+  }
+  
+  .imageandbuttoncontainer{
+    position: relative;
+    
+  
+  }
+  
+  .Book_btn{
+  
+  width: 50px;
+  height: 50px;
+  background-color: rgb(236, 85, 153);
+  border-radius: 100%;
+  display: grid;
+  place-items: center;
+  position: absolute;
+  bottom: 5px;
+  right: 8px;
+  border: 1px solid black;
+  
+  
+  }
+
+
+  .BOOKNOW{
+    border: 1px solid black;
+    width: 125px;
+    height: 29px;
+    background-color: rgb(236, 236, 48);
+    margin-bottom: 2px;
+    border-radius: 4px;
+    text-decoration: none;
+
+  }
+  .heartbtn{
+    appearance:unset;
+    border: 0px solid white ;
+    background-color: white;
+    
+  
+  }
+
+  .twobtn{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+  }
+
+
+
+.Entering_car_dform{
+background-image:url(assets/bacdj.jpg) ;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+color: white;
+background-position: center;
+background-attachment: fixed;
+background-size: cover;
+
+}
+
+
+
+.enter_form{
+  margin-top: 50px;
+  border: 2px solid black;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  color: white;
+  transition: all 2s;
+  width: 700px;
+  padding: 15px;
+  backdrop-filter: blur(2px);
+  background: rgba(255,255,255,0.1);
+  
+  
+}
+
+
+
+/* .enter_form:hover{
+  -webkit-box-shadow:0px 0px 108px 12px rgba(43,185,204,0.78);
+  -moz-box-shadow: 0px 0px 108px 12px rgba(43,185,204,0.78);
+  box-shadow: 0px 0px 108px 12px rgba(43,185,204,0.78);
+  border-color: #0ef;
+} */
+
+
+
+.enter_form input{
+  width: 500px;
+}
+
+.e_f_head{
+  color: black;
+}
+
+.in1 input{
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 2s;
+  color: white;
+
+}
+
+.in2 input{
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 2s;
+  color: white;
+
+
+}
+
+.in3 input{
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 2s;
+  color: white;
+
+
+}
+
+.in4 input{
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 2s;
+  color: white;
+
+
+}
+
+.in5 input{
+  border-radius: 5px;
+  background-color: transparent;
+  transition: all 2s;
+  color: white;
+
+}
+
+
+.in1 input:hover{
+  filter: drop-shadow(0px 0px 10px #0ef);
+}
+
+.in2 input:hover{
+  filter: drop-shadow(0px 0px 10px #0ef);
+}
+
+.in3 input:hover{
+  filter: drop-shadow(0px 0px 10px #0ef);
+}
+
+.in4 input:hover{
+  filter: drop-shadow(0px 0px 10px #0ef);
+}
+
+.in5 input:hover{
+  filter: drop-shadow(0px 0px 10px #0ef);
+}
+
+
+.entering_form_btn .link{
+  color: #0ef;
+  border: 2px solid #0ef;
+  background-color: transparent;
+  margin-right: 25px;
+    transition: all 2s;
+}
+
+.H1FORM{
+  word-spacing: 10PX;
+  margin-bottom: 30PX;
+}
+
+
+
+
+/* CSS */
+.button-85 {
+  padding: 0.6em 2em;
+  border: none;
+  outline: none;
+  color: rgb(255, 255, 255);
+  background: #111;
+  cursor: pointer;
+  position: relative;
+  z-index: 0;
+  border-radius: 10px;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 80%;
+}
+
+.button-85:before {
+  content: "";
+  background: linear-gradient(
+    45deg,
+    #ff0000,
+    #ff7300,
+    #fffb00,
+    #48ff00,
+    #00ffd5,
+    #002bff,
+    #7a00ff,
+    #ff00c8,
+    #ff0000
+  );
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  background-size: 400%;
+  z-index: -1;
+  filter: blur(5px);
+  -webkit-filter: blur(5px);
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  animation: glowing-button-85 20s linear infinite;
+  transition: opacity 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+@keyframes glowing-button-85 {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 400% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.button-85:after {
+  z-index: -1;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #222;
+  left: 0;
+  top: 0;
+  border-radius: 10px;
+}
+
+.wraperreg{
+  background-color:#081b29 ;
+}
+
+
+
+.adminform{
+  background-color: #081b29;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  gap: 20px;
+  
+}
+
+.adminform form{
+  width: 391px;
+  height: 258px;
+  border: 2px solid rgba(255, 255, 255, 0.388);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+ padding: 30px;
+}
+
+.adminform form input{
+color: black;
+border-radius:7px ;
+
+
+}
+.adminform form label{
+  color: white;
+}
+
+.adfbtn{
+    background-color: greenyellow;
+    width: 100px;
+}
+
+.formad{
+  color: white;
+}
+
+
+.infominform{
+
+
+  background-color: #081b29;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding-top: 50px;
+  align-items: center;
+  gap: 20px;
+}
+.infominform form input{
+  color: black;
+border-radius:7px ;
+
+
+}
+
+.infominform form{
+  border: 1px solid rgba(255, 255, 255, 0.517);
+  border-radius:7px ;
+  width: 300px;
+
+}
+
+.infominform form label{
+  color: white;
+}
+
+.usform{
+  color: white ;
+}
+
+
+
+
+
+
+/* tabld */
+
+
+strong {
+  font-weight: bold; 
+}
+
+em {
+  font-style: italic; 
+}
+
+table {
+  background: #f5f5f5;
+  border-collapse: separate;
+  box-shadow: inset 0 1px 0 #fff;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 30px auto;
+  text-align: left;
+  width: 950px;
+} 
+
+th {
+  background: url(https://jackrugile.com/images/misc/noise-diagonal.png), linear-gradient(#777, #444);
+  border-left: 1px solid #555;
+  border-right: 1px solid #777;
+  border-top: 1px solid #555;
+  border-bottom: 1px solid #333;
+  box-shadow: inset 0 1px 0 #999;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 15px;
+  position: relative;
+  text-shadow: 0 1px 0 #000;  
+
+}
+
+th:after {
+  background: linear-gradient(rgba(255,255,255,0), rgba(255,255,255,.08));
+  content: '';
+  display: block;
+  height: 25%;
+  left: 0;
+  margin: 1px 0 0 0;
+  position: absolute;
+  top: 25%;
+  width: 100%;
+}
+
+th:first-child {
+  border-left: 1px solid #777;  
+  box-shadow: inset 1px 1px 0 #999;
+}
+
+th:last-child {
+  box-shadow: inset -1px 1px 0 #999;
+}
+
+td {
+  border-right: 1px solid #fff;
+  border-left: 1px solid #e8e8e8;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #e8e8e8;
+  padding: 10px 15px;
+  position: relative;
+  transition: all 300ms;
+  cursor: pointer;
+}
+
+td:first-child {
+  box-shadow: inset 1px 0 0 #fff;
+} 
+
+td:last-child {
+  border-right: 1px solid #e8e8e8;
+  box-shadow: inset -1px 0 0 #fff;
+} 
+
+tr {
+  background: url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+}
+
+tr:nth-child(odd) td {
+  background: #f1f1f1 url(https://jackrugile.com/images/misc/noise-diagonal.png); 
+}
+
+tr:last-of-type td {
+  box-shadow: inset 0 -1px 0 #fff; 
+}
+
+tr:last-of-type td:first-child {
+  box-shadow: inset 1px -1px 0 #fff;
+} 
+
+tr:last-of-type td:last-child {
+  box-shadow: inset -1px -1px 0 #fff;
+} 
+
+
+
+
+
+/* one card css in userhome */
+.allcolorwhite{
+  color: black;
+
+}
+
+.carduserspan{
+  font-size: large;
+  font-weight: bold;
+}
+.divdescription{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.imagediv{
+  gap: 14px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.imagediv img{
+  border-radius: 15px;
+}
+.mainonecarduser{
+
+  padding: 12px;
+  width: 650px;
+  border-radius: 15px;
+  background-color: rgb(105, 227, 174);
+  /* background-color: rgba(3, 3, 3, 0.846); */
+}
+
+.every2{
+  padding-left: 400px;
+  padding-top: 100px;
+}
+
+
+
+.bfbuttonu{
+padding-top: 15px;
+  width: 100px;
+  height: 50px;
+  border-radius: 40%;
+  background-color: white;
+  cursor: pointer;
+}
+
+.backtohomeuser button{
+  margin-left: 270px;
+  border-radius: 20px;
+  width: 100px;
+  
+}
+
+.conformbtnu{
+  background-color: rgb(53, 248, 86);
+  width: 300px;
+  height: 35px;
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  margin-top: 25px;
+  cursor: pointer;
+
+}
+
+.aftercomformation{
+  margin-top: 500px;
+  padding: 12px;
+  width: 650px;
+  border-radius: 15px;
+  background-color: rgb(105, 227, 174);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.inputcomformdiv input {
+  font-size: large;
+  color: black;
+  width: 350px;
+  height: 35px;
+  margin-bottom:25px ;
+  background-color: wheat;
+
+}
+.inputspanu{
+  font-size: x-large;
+  font-weight: bold;
+ 
+}
+.totaldays{
+  margin-bottom:25px ;
+  font-size: x-large;
+  font-weight: bold;
+}
+.totalprice{
+  background-color: wheat;
+  width: 170px;
+  height: 50px;
+  text-align: center;
+  font-size: xx-large;
+  font-weight: bold;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-bottom:25px ;
+
+}
+
+
+.logoutbuttonuser button{
+  border-radius: 250px;
+  background-color: red;
+  color: white;
+  margin-left: 15px;
+}
+.link2{
+  margin-left: 15px;
+}
+.inputfeedback{
+  width: 500px;
+  height: 50px;
+  font-size: x-large;
+  margin-bottom: 25px;
+  border-radius: 10px;
+}
+
+.feedbackdiv h1{
+color: white;
+}
+
+.feedbackdiv button {
+background-color: yellow;
+width: 125px;
+height: 35px;
+margin-left: 175px;
+border-radius: 10px;
+border: 2px solid black;
+font-size: 15px;
+font-weight: bold;
+}
+
+/* admin products css */
+
+.productonename{
+  margin-top: 30px;
+  margin-left: 150px;
+}
+.productsbackbtn{
+  margin-left: 150px;
+}
+
+.approverejectbtn{
+  margin-top: 18px;
+  display: flex;
+  gap: 10px;
+}
+
+
+
+
+/* user profile in admin */
+
+.userprofileinad{
+  background-color: #081b29;
+  width: 750px;
+  height: 720px;
+  margin-left: 380px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  border-radius: 15px;
+  /* font-family: 'Courier New', Courier, monospace; */
+}
+
+.userprofileinad h1{
+  margin-left: 225px;
+  
+}
+
+.userprofileinad img{
+  margin-left: 120px;
+  margin-top: 25px;
+  border-radius: 15px;
+}
+.usertextdata{
+  margin-top: 23px;
+  margin-left: 125px;
+}
+.contstntuser{
+  font-size: large;
+  font-weight: bold;
+}
+
+.usertextdatabtn{
+  border: 2px solid black;
+  width: 250px;
+  text-align: center;
+  margin-left: 250px;
+  background-color: rgb(30, 33, 127);
+  border-radius: 8px;
+  cursor: pointer;
+}
+.approvebtn{
+  background-color: rgb(128, 211, 128);
+
+  border-radius: 5px;
+}
+.approvebtn:hover{
+  background-color: rgb(6, 188, 6);
+}
+
+.rejectbtn{
+  background-color: rgb(230, 103, 103);
+  border-radius: 5px;
+}
+.rejectbtn:hover{
+  background-color: rgb(212, 16, 16);
+}
+.rebook{
+  background-color: rgb(78, 78, 193);
+
+  border-radius: 5px;
+}
+.rebook:hover{
+  background-color: rgb(17, 17, 224);
+}
+
+/* admin product addpage */
+
+.fistcontainerinad{
+  margin-left: 215px;
+}
+
+/* aboutus */
+
+.aboutus{
+  background-color: #081b29;
+  color: white;
+  margin-top: 100px;
+  height: 600px;
+  width: 1482px;
+}
+
+.abouttext{
+  margin-top: 30px;
+  width: 570px;
+  margin-left: 170px;
+  text-align: justify;
+
+}
+.aboutus h1 {
+  margin-left: 700px;
+}
+.aboutcontainer{
+  display:  flex;
+}
+.aboutcontainer img {
+margin-top: 50px;
+margin-left: 70px;
+border-radius: 5px;
+}
+
+.contactus{
+  background-color: #081b29;
+  color: white;
+  margin-top: 100px;
+  height: 610px;
+  width: 1482px;
+}
+.contentheadingspan{
+  color: #002bff;
+  cursor: pointer;
+}
+.contactus h1{
+  margin-left: 680px;
+}
+.contactcontainer{
+  margin-left: 125px;
+  margin-right: 125px;
+}
+
+.adminprofilesimg{
+  margin-left: 100px;
+}
+
+.image-box{
+margin-left: 100px;
+}
+.userhomelink{
+  margin-left: 70px;
+}
+
+
+
+
+.maindiv2{
+  background-color: #081b29;
+  width: 97vw;
+}
+
+
+.mainproductcontaineruser{
+  
+    display: flex;
+    justify-content: space-between;
+}
+
+.datatoday{
+  width: 120px;
+}
+.filetercat{
+  background-color: #0ef;;
+  border-radius: 15px;
+  margin-top: 30px;
+  width: 75px;
+  height: 25px;
+
+}
